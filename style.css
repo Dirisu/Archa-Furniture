@@ -1,0 +1,122 @@
+.nav-image, .icons{
+    width: 60px;
+    height: 40px;
+}
+
+.nv-bg {
+    background-color: rgb(201, 199, 199);
+}
+
+.main-bg{
+    background-image: url(images/bedroom2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.main-bg h2{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.btn {
+    background-color: rgb(201, 199, 199);
+}
+
+.bd {
+    border-right: 2px solid rgb(172, 163, 163);
+}
+
+.border-bottom {
+    border-bottom: 2px solid rgb(172, 163, 163);
+}
+
+.contact-image{
+    float: left;
+    width: 50%;
+    margin-right: 70px;
+}
+
+.contact-contents{
+    /* margin-left: 70px; */
+    padding: 20px;
+}
+
+.services {
+    background-color: rgb(223, 213, 201);
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.footer-items {
+    padding: 5% 0 5% 7%;
+}
+
+.footer-image {
+    border-radius: 100%;
+    padding: 5px;
+    background-color: gray;
+}
+/* .footer-head{
+    margin-right: 18x;
+} */
+
+.footer li,a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(201, 199, 199);
+}
+
+.footer li h5{
+    color: rgb(211, 193, 193);
+}
+
+.fab{
+    padding: 10px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.copyright{
+    background-color: black;
+    color: rgb(219, 219, 219);
+    padding: 0 10%;
+}
+
+@media (max-width: 1300px) {
+    .nav-image{
+        display: none;
+    }
+
+    .contact-image{
+        width: 100%;
+    }
+
+    .contact-contents{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .main-bg{
+        height: 40vh;
+    }
+
+    .main-bg h2{
+        font-size: 2rem;
+        top: 40%;
+    }
+
+    .fab{
+        justify-content: space-evenly;
+    }
+
+
+}
